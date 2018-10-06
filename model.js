@@ -14,7 +14,9 @@ class Snack {
   }
 }
 
-const gaSnacks = [];
+const gaSnacks = [
+  new Snack("Chips", "Frito Lay", 1.5, 12),
+];
 
 // ********************************************************
 function getAll() {
